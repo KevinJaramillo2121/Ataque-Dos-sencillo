@@ -4,7 +4,7 @@ import threading
 # --- Configuración del Ataque ---
 TARGET_IP = "127.0.0.1"  # La IP de localhost
 TARGET_PORT = 8080         # El puerto de nuestro servidor
-NUM_ATACANTES = 100        # Número de conexiones simultáneas que lanzaremos
+NUM_ATACANTES = 100000        # Número de conexiones simultáneas que lanzaremos
 
 print("Iniciando ataque DoS...")
 
