@@ -1,6 +1,6 @@
 # 🐌 SlowLogin DoS - Laboratorio Educativo 🐌
 
-![Banner del Proyecto](https_URL_DE_TU_BANNER_AQUI)
+![Banner del Proyecto]([https_URL_DE_TU_BANNER_AQUI](https://github.com/KevinJaramillo2121/Ataque-Dos-sencillo.git))
 
 **Bienvenido a SlowLogin DoS, un laboratorio práctico diseñado para demostrar un ataque de Denegación de Servicio (DoS) a nivel de aplicación (Capa 7) explotando un proceso de autenticación lento.**
 
