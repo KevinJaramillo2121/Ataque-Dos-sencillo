@@ -1,6 +1,6 @@
 # 🐌 SlowLogin DoS - Laboratorio Educativo 🐌
 
-![Banner del Proyecto]([https_URL_DE_TU_BANNER_AQUI](https://github.com/KevinJaramillo2121/Ataque-Dos-sencillo.git))
+![Banner del Proyecto](https://github.com/KevinJaramillo2121/Ataque-Dos-sencillo.git))
 
 **Bienvenido a SlowLogin DoS, un laboratorio práctico diseñado para demostrar un ataque de Denegación de Servicio (DoS) a nivel de aplicación (Capa 7) explotando un proceso de autenticación lento.**
 
@@ -71,8 +71,7 @@ Clona el repositorio:
 
 Bash
 
-git clone [https://github.com/](https://github.com/)[TU_USUARIO]/[NOMBRE_DEL_REPOSITORIO].git
-cd [NOMBRE_DEL_REPOSITORIO]
+git clone (https://github.com/KevinJaramillo2121/Ataque-Dos-sencillo.git)
 Crea el archivo de usuarios:
 El servidor necesita un archivo usuarios.txt para verificar las credenciales. Crea este archivo en la misma carpeta con el siguiente formato:
 
