@@ -1,6 +1,6 @@
 import http.server
 import socketserver
-import time # Asegúrate de que 'time' esté importado
+import time 
 import os
 import json
 
@@ -46,9 +46,8 @@ class MiManejador(http.server.SimpleHTTPRequestHandler):
 
             # --- SIMULACIÓN DE CARGA PARA ATAQUE DoS ---
             print("Procesando autenticación (tardará 10 segundos)...")
-            time.sleep(5) # AÑADIMOS LA PAUSA DE 10 SEGUNDOS AQUÍ
+            time.sleep(5) # AÑADIMOS LA PAUSA DE 5 SEGUNDOS AQUÍ
 
-            # Lógica de autenticación
             authenticated = False
             try:
                 with open('usuarios.txt', 'r') as f:
@@ -60,7 +59,6 @@ class MiManejador(http.server.SimpleHTTPRequestHandler):
             except FileNotFoundError:
                 print("Error: El archivo usuarios.txt no fue encontrado.")
 
-            # Enviar respuesta al cliente (JavaScript)
             if authenticated:
                 print("Login EXITOSO.")
                 self.send_response(200)
